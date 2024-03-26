@@ -3,7 +3,7 @@ import React from 'react'
 
 const Foodcard = ({id, name, desc, price, img}) => {
   return (
-    <div className='flex flex-col w-[250px] bg-white p-3 m-6 rounded-lg hover:scale-105'>
+    <div className='flex flex-col w-[250px] bg-white p-3 m-6 rounded-lg hover:scale-105 hover:shadow-lg-600 '>
         <img src={img} alt="Food" className='w-auto h-130 rounded-lg  transition-all duration-500 ease-in-out'/>
 
         <div className='font-bold flex justify-between '>
