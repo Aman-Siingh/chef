@@ -19,6 +19,7 @@ const Cart = () => {
             <button className='p-1 font-normal bg-green-500 rounded-lg text-white hover:bg-green-600 w-[90vw] lg:w-[23vw]'>Checkout</button>
         </div>
     </div>
+    <div></div>
     </>
   )
 
