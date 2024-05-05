@@ -10,7 +10,7 @@ const Home = () => {
       <Navbar/>
       <Category/>
       <Fooditems/>
-      <Cart/>
+      {/* <Cart/> */}
     </>
   )
 }
